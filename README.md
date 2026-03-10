@@ -44,8 +44,8 @@ Bu çalışmada amaç, bir robot aracın IR kumanda ile kablosuz şekilde kontro
 | D6 | Motor Sürücü IN3 |
 | D7 | Motor Sürücü IN4 |
 | Vin | Motor sürücü 12V, Batarya + |
-| D3 | ENB1 |
-| D9 | ENB2 |
+| D3 | Motor Sürücü ENB1 |
+| D9 | Motor Sürücü ENB2 |
 
 ## Çalışma Mantığı
 
