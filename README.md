@@ -47,6 +47,8 @@ Bu çalışmada amaç, bir robot aracın IR kumanda ile kablosuz şekilde kontro
 | D3 | Motor Sürücü ENB1 |
 | D9 | Motor Sürücü ENB2 |
 
+![Devre Şeması](Aracin_Fotografi.jpg)
+
 ## Çalışma Mantığı
 
 IR kumandadan gönderilen sinyaller, IR alıcı modül tarafından okunur ve Arduino’ya aktarılır. Arduino, tanımlanmış komutlara göre motor sürücüyü kontrol eder. Motor sürücü de sağ ve sol motorları uygun şekilde çalıştırarak aracın hareket etmesini sağlar.
