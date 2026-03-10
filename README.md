@@ -47,7 +47,7 @@ Bu çalışmada amaç, bir robot aracın IR kumanda ile kablosuz şekilde kontro
 | D3 | Motor Sürücü ENB1 |
 | D9 | Motor Sürücü ENB2 |
 
-![Devre Şeması](Aracin_Fotografi.jpg)
+![Aracın Fotoğrafı](Aracin_Fotografi.jpeg)
 
 ## Çalışma Mantığı
 
