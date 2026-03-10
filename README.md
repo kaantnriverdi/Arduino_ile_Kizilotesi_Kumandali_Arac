@@ -36,15 +36,16 @@ Bu çalışmada amaç, bir robot aracın IR kumanda ile kablosuz şekilde kontro
 
 | Arduino Pin | Bağlanan Parça |
 |---|---|
-| 5V | IR Alıcı VCC |
-| GND | IR Alıcı GND |
-| D3 | IR Alıcı OUT |
-| D5 | Motor Sürücü IN1 |
-| D6 | Motor Sürücü IN2 |
-| D9 | Motor Sürücü IN3 |
-| D10 | Motor Sürücü IN4 |
-| 5V / Vin | Motor sürücü besleme bağlantısı |
-| GND | Motor sürücü GND |
+| 5V | IR Alıcı VCC , Motor Sürücü 5V|
+| GND | IR Alıcı GND, Motor Sürücü GND, Batarya - |
+| D2 | IR Alıcı Sinyal Bacağı |
+| D4 | Motor Sürücü IN1 |
+| D5 | Motor Sürücü IN2 |
+| D6 | Motor Sürücü IN3 |
+| D7 | Motor Sürücü IN4 |
+| Vin | Motor sürücü 12V, Batarya + |
+| D3 | ENB1 |
+| D9 | ENB2 |
 
 ## Çalışma Mantığı
 
@@ -232,15 +233,3 @@ void loop() {
 
 }
 ```
-
-```bash
-IR-Controlled-Robot-Car
-│── code
-│   └── ir_robot_car.ino
-│── circuit
-│   └── wiring_diagram.png
-│── images
-│   └── project_photo.jpg
-│── videos
-│   └── demo.mp4
-│── README.md
